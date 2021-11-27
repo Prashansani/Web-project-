@@ -17,7 +17,7 @@ body{
 #submit{
 	font-family: sans-serif;
 	font-size: 20px;
-	background-color: #279;
+	background-color: rgb(17, 17, 17);
 	color: #fff;
 	border: 0px;
 	border-radius: 3px;
@@ -32,7 +32,7 @@ body{
 #reset{
 	font-family: sans-serif;
 	font-size: 20px;
-	background-color: #279;
+	background-color: rgb(17, 17, 17);
 	color: #fff;
 	border: 0px;
 	border-radius: 3px;
@@ -47,7 +47,7 @@ body{
 #back{
 	font-family: sans-serif;
 	font-size: 20px;
-	background-color: #279;
+	background-color: rgb(17, 17, 17);
 	color: #fff;
 	border: 0px;
 	border-radius: 3px;
@@ -109,6 +109,6 @@ body{
 	color: red;
 }
 
-.green{
-	color: green;
+.yellow{
+	color: yellow;
 }

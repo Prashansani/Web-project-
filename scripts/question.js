@@ -6,104 +6,103 @@
 
   const myQuestions = [
     {
-      question: "1) Year the AMDT school of creativity started ?",
+      question: "1)Is AMDT Pearson approved?",
       answers: {
-        a: "2005",
-        b: "2003",
-        c: "2006",
-        d: "2004"
+        a: "Yes",
+        b: "No",
+       
       },
       correctAnswer: "a"
     },
     {
-      question: "2) How many people got together and started the AMDT ? ",
+      question: "2)How many Universities worldwide is recognised by Falmouth University? ",
       answers: {
-        a: "1",
-        b: "4",
-        c: "2",
-        d: "3"
+        a: "55 creative universities",
+        b: "10 creative universities",
+        c: "50 creative universities",
+        d: "35 creative universities"
       },
       correctAnswer: "c"
     },
     {
-      question: "3) Where is AMDT located ?",
+      question: "3)What was the year that brought AMDT to life?",
       answers: {
-        a: "Bambalapitiya",
-        b: "Kollupitiya",
-        c: "Wellawatta",
-        d: "Malabe"
+        a: "2005",
+        b: "2008",
+        c: "2010",
+        d: "2015"
       },
       correctAnswer: "a"
     },
     {
-      question: "4) In what year was the last AMDT premiere league held ?",
+      question: "4) How many types of courses are offered by AMDT",
       answers: {
-        a: "2019",
-        b: "2020",
-        c: "2018",
-        d: "2021"
-      },
-      correctAnswer: "b"
-    },
-    {
-      question: "5) Who are the AMDT partners ?",
-      answers: {
-        a: "Bradford College & Pearson",
-        b: "Pearson & Falmouth University",
-        c: "Falmouth University & Brunel University",
-        d: "Osnabruck University & KEA"
-      },
-      correctAnswer: "b"
-    },
-    {
-      question: "6) which highest qualification do AMDT offer ?",
-      answers: {
-        a: "BTEC(HND) and BA(Hons)",
-        b: "BTEC HND",
-        c: "BA(Hons)",
-        d: "Foundation Diploma"
+        a: "12 Types of courses",
+        b: "15 Types of courses",
+        c: "20 Types of courses",
+        d: "45 Types of courses"
       },
       correctAnswer: "a"
     },
     {
-      question: "7) Study options in AMDT ?",
+      question: "5)When can students participate the Amdt Exhibition?",
       answers: {
-        a: "Part Time",
-        b: "Full time",
-        c: "Part time & Full time",
-        d: "Only first year full time"
+        a: "2 weeks after joining",
+        b: "Anyone can join",
+        c: "Upon the completion of the course ",
+        d: "In the begining "
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "6)To what category does the Interior design course fall into?",
+      answers: {
+        a: "Art and Design ",
+        b: "Network Engineering",
+        c: "HND",
+        d: "Culinary"
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "7)To what category does the Film and Television, sound media and motion graphics fall into?",
+      answers: {
+        a: "Tv series",
+        b: "Social Media",
+        c: "Creative Media",
+        d: "Movie Marathon"
       },
       correctAnswer: "c"
     },
     {
       question: "8) How old is AMDT school of creativity ?",
       answers: {
-        a: "16",
-        b: "14",
-        c: "20",
-        d: "15"
+        a: "16 years old",
+        b: "99 years old",
+        c: "42 years old",
+        d: "35 years old"
       },
       correctAnswer: "a"
     },
     {
-      question: "9) Minimum required educational qualification to study at AMDT ?",
+      question: "9)What’s the duration for the final year?",
       answers: {
-        a: "Ordinary Level",
-        b: "Advanced Level",
-        c: "Foundation Diploma",
-        d: "NVQ level 3"
+        a: "1 year",
+        b: "5 years",
+        c: "11 months",
+        d: "3 months"
       },
       correctAnswer: "a"
     },
     {
-      question: "10) What does AMDT do for the good of society ?",
+      question: "10) What’s the duration for advanced diploma courses?",
       answers: {
-        a: "Campaign for Breast cancers",
-        b: "Campaign for the environment ",
-        c: "Only educational",
-        d: "Fund for poor people"
+        a: "5 years",
+        b: "9 years ",
+        c: "2 years",
+        d: "3 years"
       },
-      correctAnswer: "a"
+      correctAnswer: "d"
     }
   ];
 
@@ -190,8 +189,8 @@
    gameOverHTML += "<div class='modal-content'>"
     
     if (point>=12){
-      gameOverHTML += "<h2 class='green'>Cogratulations. !!!</h2>"
-    }
+      gameOverHTML += "<h2 class='yellow'>Cogratulations. !!!</h2>"
+    } 
 
     if (point<12){
       gameOverHTML += "<h2 class ='red'>Try Harder, Next Time</h2>"
