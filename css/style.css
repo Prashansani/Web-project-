@@ -6,7 +6,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img/Homebg.jpg);
+    background-image:url(../img/Homebg3.jpg);
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 .logo{
-    width: 250px;
+    width: 300px;
     cursor: pointer;
 }
 .navbar ul li{
@@ -72,7 +72,7 @@
     border: none;
     border-radius: 1rem;
     padding: 1.5%;
-    background: #fcc603;
+    background: #dc3545;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -93,20 +93,17 @@
 }
 
 
-
-
-
-
 img.rounded {
     width: 100%;
     height: 200px;
     border-radius:5px;
     object-fit:cover;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
+  
 }
+
+
+
+
         
  
 .transition {

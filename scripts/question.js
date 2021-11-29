@@ -189,13 +189,13 @@
    gameOverHTML += "<div class='modal-content'>"
     
     if (point>=12){
-      gameOverHTML += "<h2 class='yellow'>Cogratulations. !!!</h2>"
+      gameOverHTML += "<h2 class='green'>Cogratulations. !!!</h2>"
     } 
 
     if (point<12){
       gameOverHTML += "<h2 class ='red'>Try Harder, Next Time</h2>"
     }
-  gameOverHTML += "<h2>You have score : " + point+ " out of 20 points.</h2>"
+  gameOverHTML += "<h2>You have scored : " + point+ " out of 20 points.</h2>"
   gameOverHTML +="<span id='close'>OK</span>"
   gameOverHTML += "</div>"
   
